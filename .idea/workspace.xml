@@ -9,7 +9,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/index.jsp" line="9" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69fe6250-eff5-449f-b236-0b265681a333" name="Default Changelist" comment="" />
+    <list default="true" id="69fe6250-eff5-449f-b236-0b265681a333" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vo/ProductVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vo/ProductVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/backstage/product/AddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/backstage/product/AddProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/backstage/product/EditorProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/backstage/product/EditorProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/editProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/editProduct.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/FindProductServlet.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vo/ProductVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="308">
+              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -41,17 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
+            <state relative-caret-position="612">
               <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+            <state relative-caret-position="96">
+              <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="218">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="598">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -83,8 +91,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/productList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
+            <state relative-caret-position="612">
               <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/EditorProductServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/UploadUntils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/AddProductServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/editProduct.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -110,10 +163,12 @@
       <find>admin</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/views/main/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/web/RsetPasswordServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
@@ -146,8 +201,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/left.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/web/backstage/product/QueryProductByIdServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/route/ToEditorProductServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/editProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/web/backstage/product/EditorProductServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/backstage/product/DeleteProductServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/base/LoginOutServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/top.jsp" />
@@ -155,15 +208,18 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/utils/FileUploadUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/addProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/web/backstage/product/AddProductServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/productList.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojo/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/vo/ProductVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/backstage/product/FindProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/UploadUntils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/backstage/product/EditorProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/backstage/product/AddProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/editProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" />
       </list>
     </option>
   </component>
@@ -217,11 +273,13 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,7 +311,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsp_servlet_shop_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsp_servlet_shop_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsp_servlet_shop_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsp_servlet_shop_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsp_servlet_shop_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsp_servlet_shop_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsp_servlet_shop_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsp_servlet_shop_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jsp_servlet_shop_maven" type="b2602c69:ProjectViewProjectNode" />
@@ -271,6 +361,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="backstage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsp_servlet_shop_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsp_servlet_shop_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsp_servlet_shop_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsp_servlet_shop_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jsp_servlet_shop_maven" type="b2602c69:ProjectViewProjectNode" />
@@ -311,7 +420,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,11 +493,6 @@
             <option name="CONTEXT_PATH" value="/shop" />
           </settings>
         </artifact>
-        <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/temp">
-          <settings>
-            <option name="CONTEXT_PATH" value="/temp" />
-          </settings>
-        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_jsp_servlet_shop_maven" />
@@ -513,11 +616,12 @@
       <workItem from="1605832951361" duration="11581000" />
       <workItem from="1605884770426" duration="597000" />
       <workItem from="1605938178983" duration="1256000" />
+      <workItem from="1605961338506" duration="2262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64023000" />
+    <option name="totallyTimeSpent" value="66285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +635,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928674" visible="true" weight="0.24731903" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49928674" visible="true" weight="0.25067025" />
       <window_info id="Structure" order="1" sideWeight="0.5007133" side_tool="true" weight="0.36363637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -540,7 +644,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49932975" weight="0.26874116" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
@@ -552,9 +656,9 @@
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.5013405" side_tool="true" weight="0.36350778" />
-      <window_info anchor="bottom" id="Problems" order="15" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.49865952" weight="0.5205092" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32673267" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.49865952" visible="true" weight="0.51983005" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32577905" />
       <window_info anchor="bottom" id="Java Enterprise" order="18" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -573,9 +677,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/bt_02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -686,26 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/EditorProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/route/ToEditorProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -751,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/editProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/productImg/1/5/906cfaa5-5c38-4b17-8d83-e562ca9fc478.png" />
     <entry file="file://$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/productImg/14/7/76b80370-94e3-46a0-a364-0cf4f25f76eb.png" />
     <entry file="file://$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/productImg/6/4/79491f0b-97c9-4277-b178-744826bfb39b.png" />
@@ -786,16 +860,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/temp/0/14/b2e7cfeb-cf5c-492e-864f-b4d8e4f1f640.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/AddProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -818,12 +882,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="67" column="36" lean-forward="true" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/DH.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -839,17 +903,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/FindProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
+        <state relative-caret-position="612">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vo/ProductVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        <state relative-caret-position="308">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/route/ToEditorProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -858,8 +939,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="218">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/AddProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -868,29 +959,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="598">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/editProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/EditorProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/productList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
+        <state relative-caret-position="612">
           <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vo/ProductVo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/UploadUntils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="238">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/backstage/product/FindProductServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="96">
+          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

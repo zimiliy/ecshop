@@ -43,6 +43,12 @@ public interface ProductService {
     int addProduct(Product product);
 
     /**
+     * 修改商品信息
+     * @param product
+     * @return
+     */
+    int updateProduct(Product product);
+    /**
      * 根据商品id删除商品
      * @param pid 商品id
      * @return

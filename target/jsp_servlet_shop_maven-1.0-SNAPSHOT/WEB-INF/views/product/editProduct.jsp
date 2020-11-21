@@ -26,7 +26,7 @@
 </HEAD>
 <body onload="setProductCategory('${product.category}')">
 	<form id="userAction_save_do" name="Form1"
-		action="${pageContext.request.contextPath}/editProduct" method="post"
+		action="${pageContext.request.contextPath}/EditorProductServlet" method="post"
 		enctype="multipart/form-data">
 		<input type="hidden" name="id" value="${requestScope.product.id}" /> &nbsp;
 		<table cellSpacing="1" cellPadding="5" width="100%" align="center"

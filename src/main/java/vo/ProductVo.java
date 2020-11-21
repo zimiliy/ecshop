@@ -3,6 +3,7 @@ package vo;
 import pojo.Product;
 
 /**
+ * 用于封装商品的查询参数
  * @author wyx
  * @version 1.0
  * @date 2020/11/20

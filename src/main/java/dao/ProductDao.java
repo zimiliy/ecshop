@@ -95,6 +95,32 @@ public class ProductDao {
 
 
     /**
+     * 修改商品信息
+     * @param product
+     * @return
+     */
+    public  int updateProduct(Product product){
+        //用于存储参数
+        List<String> list=new ArrayList<>();
+        list.add(product.getName());
+        list.add(product.getPrice()+"");
+        list.add(product.getCategory());
+        list.add(product.getPnum()+"");
+        list.add(product.getDescription());
+        String sql  = "update t_product "+"set name=?,price=?,category=?,pnum=?,description=?";
+        //判断是否有图片
+        if (product.getImgurl() != null && product.getImgurl().trim().length() > 0) {
+            sql += " ,imgurl=?";
+            list.add(product.getImgurl());
+        }
+        sql += " where id=?";
+        list.add(product.getId());
+        String[] args= list.toArray(new String[list.size()]);
+        int update = DH.update(sql, args);
+        return  update;
+    }
+
+    /**
      * 根据商品id删除商品信息
      * @param pid
      * @return

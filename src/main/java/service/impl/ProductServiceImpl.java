@@ -61,6 +61,16 @@ public class ProductServiceImpl implements ProductService {
     }
 
     /**
+     * 更改商品的信息
+     * @param product
+     * @return
+     */
+    @Override
+    public int updateProduct(Product product) {
+        return productDao.updateProduct(product);
+    }
+
+    /**
      * 根据商品id删除商品
      * @param pid 商品id
      * @return
