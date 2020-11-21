@@ -4,6 +4,7 @@
 <html>
 <head>
     <title>用户登录</title>
+    <link rel="icon" type="image/x-icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico"/>
     <style type="text/css">
         .box_login{
             width: 100%;
