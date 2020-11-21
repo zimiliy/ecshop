@@ -3,7 +3,6 @@ package web.backstage.product;
 import pojo.Product;
 import service.ProductService;
 import service.impl.ProductServiceImpl;
-import vo.ProductVo;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -38,9 +37,6 @@ public class FindProductServlet extends HttpServlet {
         String name = request.getParameter("name");
         String minPrice = request.getParameter("minPrice");
         String maxPrice = request.getParameter("maxPrice");
-
-        ProductVo productVo = new ProductVo(id, name, category, minPrice, maxPrice);
-        System.out.println(productVo);
 
         List<Product> products = productService.findProduct(id, name, category, minPrice, maxPrice);
         request.setAttribute("allProduct", products);

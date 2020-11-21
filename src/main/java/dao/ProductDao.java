@@ -72,12 +72,16 @@ public class ProductDao {
         }
 
         String[] args= list.toArray(new String[list.size()]);
-
-        List allPrioduct = DH.getall(sql, new Product(), args);
-        if (list.size()>0){
-            return allPrioduct;
+        if (args.length==0){
+            List<Product> products = queryAllProduct();
+            return products;
         }else {
-            return  null;
+            List allPrioduct = DH.getall(sql, new Product(), args);
+            if (list.size()>0){
+                return allPrioduct;
+            }else {
+                return  null;
+            }
         }
     }
 
