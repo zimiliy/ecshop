@@ -51,4 +51,21 @@ public class UserDao {
         int update = DH.update(sql, args);
         return  update;
     }
+
+    /**
+     * 根据用户id查询用户
+     * @param id
+     * @return
+     */
+    public User queryUserById(Integer id){
+        String sql="select * from t_user where uid=?";
+        String [] args={id+""};
+
+        List getall = DH.getall(sql, new User(), args);
+        if (getall.size()>0){
+            return (User) getall.get(0);
+        }else{
+            return null;
+        }
+    }
 }

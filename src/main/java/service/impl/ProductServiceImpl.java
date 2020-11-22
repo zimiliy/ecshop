@@ -3,6 +3,7 @@ package service.impl;
 import dao.ProductDao;
 import pojo.Product;
 import service.ProductService;
+import vo.ProductVo;
 
 import java.util.List;
 
@@ -78,5 +79,15 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public int deleteProductById(Integer pid) {
         return productDao.deleteProductById(pid);
+    }
+
+    /**
+     * 根据订单id查询对应的商品列列表
+     * @param id
+     * @return
+     */
+    @Override
+    public List<ProductVo> queryProductByOrderId(Integer id) {
+        return productDao.queryProductByOrderId(id);
     }
 }

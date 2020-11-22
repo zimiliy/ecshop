@@ -11,16 +11,13 @@
 		//设置类别的默认值
 		function setProductCategory(t) {
 			var category = document.getElementById("category");
-	
 			var ops = category.options;
 			for ( var i = 0; i < ops.length; i++) {
-	
 				if (ops[i].value == t) {
 					ops[i].selected = true;
 					return;
 				}
 			}
-	
 		};
 	</script>
 </HEAD>

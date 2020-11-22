@@ -1,6 +1,7 @@
 package service;
 
 import pojo.Product;
+import vo.ProductVo;
 
 import java.util.List;
 
@@ -54,4 +55,11 @@ public interface ProductService {
      * @return
      */
      int deleteProductById(Integer pid);
+
+    /**
+     * 根据订单编号查询对应的商品列表
+     * @param id
+     * @return
+     */
+    List<ProductVo> queryProductByOrderId(Integer id);
 }

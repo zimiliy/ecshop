@@ -17,8 +17,11 @@
 			  	<td><a href="${pageContext.request.contextPath}/ProductServlet" target="mainFrame" class="left_list">商品管理</a></td>
 			  </tr>
 			  <tr>
-			  	<td><a href="#" target="mainFrame" class="left_list">订单管理</a></td>
+			  	<td><a href="${pageContext.request.contextPath}/OrderServlet" target="mainFrame" class="left_list">订单管理</a></td>
 			  </tr>
+            <tr>
+                <td><a href="${pageContext.request.contextPath}/ToEditorServlet" target="mainFrame" class="left_list">个人信息管理</a></td>
+            </tr>
 		</table>
 	</body>
 </html>

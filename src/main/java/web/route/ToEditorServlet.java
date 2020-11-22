@@ -20,7 +20,7 @@ public class ToEditorServlet extends HttpServlet {
         /**
          * 跳转修改密码
          */
-        response.sendRedirect("WEB-INF/views/main/editPassword.jsp");
+        request.getRequestDispatcher("WEB-INF/views/main/editPassword.jsp").forward(request,response);
     }
 
     @Override

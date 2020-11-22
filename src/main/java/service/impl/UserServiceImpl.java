@@ -45,4 +45,14 @@ public class UserServiceImpl implements UserService {
     public int resetPassword(User user) {
         return userDao.resetPassword(user);
     }
+
+    /**
+     * 根据用户id查询用户信息
+     * @param id
+     * @return
+     */
+    @Override
+    public User queryUserById(Integer id) {
+        return userDao.queryUserById(id);
+    }
 }

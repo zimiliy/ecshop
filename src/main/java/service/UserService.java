@@ -23,5 +23,17 @@ public interface UserService {
      */
     int registerUser(User user);
 
+    /**
+     * 修改密码
+     * @param user
+     * @return
+     */
     int resetPassword(User user);
+
+    /**
+     * 根据用户id查询用户信息
+     * @param id
+     * @return
+     */
+    User queryUserById(Integer id);
 }

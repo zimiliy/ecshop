@@ -2,6 +2,7 @@ package dao;
 
 import pojo.Product;
 import utils.DH;
+import vo.ProductVo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -134,5 +135,18 @@ public class ProductDao {
         String [] args={pid+""};
         int update = DH.update(sql, args);
         return update;
+    }
+
+    /**
+     * 根据订单编号查询商品信息
+     * @param id
+     * @return
+     */
+    public List<ProductVo> queryProductByOrderId(Integer id){
+        String sql="select p.*,po.buynum from t_order o left join t_product_order po on o.id=po.oid left join t_product p on p.id=po.pid where o.id=?";
+        String [] args={id+""};
+        List productList = DH.getall(sql, new ProductVo(), args);
+        return productList;
+
     }
 }
