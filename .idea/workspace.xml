@@ -9,30 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/index.jsp" line="9" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69fe6250-eff5-449f-b236-0b265681a333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/backstage/order/FindOrderByIdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/backstage/order/FindOrderByIdServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/base/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/base/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/base/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/base/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/WEB-INF/views/front_end/index001.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/WEB-INF/views/main/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/WEB-INF/views/main/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/WEB-INF/views/main/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/WEB-INF/views/main/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/WEB-INF/views/product/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/WEB-INF/views/product/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/resources/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsp_servlet_shop_maven-1.0-SNAPSHOT/resources/css/Style.css" afterDir="false" />
-    </list>
+    <list default="true" id="69fe6250-eff5-449f-b236-0b265681a333" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +62,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product/productList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
+            <state relative-caret-position="133">
               <caret line="74" column="84" selection-start-line="74" selection-start-column="84" selection-end-line="74" selection-end-column="84" />
             </state>
           </provider>
@@ -291,6 +268,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -527,8 +506,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,7 +527,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="settings.gitee" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -785,11 +762,12 @@
       <workItem from="1606916413965" duration="716000" />
       <workItem from="1606920243806" duration="2574000" />
       <workItem from="1607182128314" duration="148000" />
+      <workItem from="1622766654020" duration="136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180780000" />
+    <option name="totallyTimeSpent" value="180916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,9 +780,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.30294907" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.3069705" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2386059" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -813,7 +790,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49932975" weight="0.26874116" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
@@ -1013,12 +990,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/UploadUntils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1244,7 +1221,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product/productList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
+        <state relative-caret-position="133">
           <caret line="74" column="84" selection-start-line="74" selection-start-column="84" selection-end-line="74" selection-end-column="84" />
         </state>
       </provider>
