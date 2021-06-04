@@ -62,7 +62,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product/productList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="-186">
               <caret line="74" column="84" selection-start-line="74" selection-start-column="84" selection-end-line="74" selection-end-column="84" />
             </state>
           </provider>
@@ -256,7 +256,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="855" />
     <option name="y" value="30" />
     <option name="width" value="1155" />
@@ -762,12 +762,12 @@
       <workItem from="1606916413965" duration="716000" />
       <workItem from="1606920243806" duration="2574000" />
       <workItem from="1607182128314" duration="148000" />
-      <workItem from="1622766654020" duration="136000" />
+      <workItem from="1622766654020" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180916000" />
+    <option name="totallyTimeSpent" value="181254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,7 +779,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.3069705" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2386059" />
@@ -1221,7 +1221,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/product/productList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="-186">
           <caret line="74" column="84" selection-start-line="74" selection-start-column="84" selection-end-line="74" selection-end-column="84" />
         </state>
       </provider>
