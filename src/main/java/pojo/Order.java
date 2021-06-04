@@ -1,27 +1,27 @@
 package pojo;
 
-import java.util.Date;
-
 /**
  * 订单实体
+ *
  * @author wyx
  * @version 1.0
  * @date 2020/11/22
  */
 public class Order {
-    private  Integer id;
+    private Integer id;
     private Double money;
     private String receiverAddress;
     private String receiverName;
     private String receiverPhone;
     private Integer paystate;
-    private Date ordertime;
-    private  Integer userid;
+    private String ordertime;
+    private Integer userid;
 
     private User user;
 
     public Order() {
     }
+
 
     public Integer getId() {
         return id;
@@ -71,11 +71,11 @@ public class Order {
         this.paystate = paystate;
     }
 
-    public Date getOrdertime() {
+    public String getOrdertime() {
         return ordertime;
     }
 
-    public void setOrdertime(Date ordertime) {
+    public void setOrdertime(String ordertime) {
         this.ordertime = ordertime;
     }
 
@@ -98,7 +98,7 @@ public class Order {
     @Override
     public String toString() {
         return "Order{" +
-                "id=" + id +
+                "id='" + id + '\'' +
                 ", money=" + money +
                 ", receiverAddress='" + receiverAddress + '\'' +
                 ", receiverName='" + receiverName + '\'' +

@@ -4,6 +4,7 @@
 <HEAD>
 	<meta http-equiv="Content-Language" content="zh-cn">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/x-icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico"/>
 	<link href="${pageContext.request.contextPath}/resources/css/Style.css" rel="stylesheet" type="text/css" />
 	<script language="javascript" src="${pageContext.request.contextPath}/resources/js/public.js"></script>
 	<script type="text/javascript">
@@ -105,7 +106,7 @@
 								<td align="center" width="9%">商品价格</td>
 								<td align="center" width="9%">商品数量</td>
 								<td width="8%" align="center">商品类别</td>
-                                <td width="8%" align="center">图片</td>
+                              <%--  <td width="8%" align="center">图片</td>--%>
 								<td width="8%" align="center">编辑</td>
 								<td width="8%" align="center">删除</td>
 							</tr>
@@ -118,9 +119,9 @@
 									<td style="CURSOR: hand; HEIGHT: 22px" align="center" width="8%">${product.price }</td>
 									<td style="CURSOR: hand; HEIGHT: 22px" align="center" width="8%">${product.pnum }</td>
 									<td style="CURSOR: hand; HEIGHT: 22px" align="center">${product.category}</td>
-                                    <td align="center" style="HEIGHT: 22px" width="7%">
+                                   <%-- <td align="center" style="HEIGHT: 22px" width="7%">
                                         <img src="${product.imgurl}" border="0" style="CURSOR: hand">
-                                    </td>
+                                    </td>--%>
 									<td align="center" style="HEIGHT: 22px" width="7%">
 									    <a href="${pageContext.request.contextPath}/ToEditorProductServlet?id=${product.id}&type=admin">
 											<img src="${pageContext.request.contextPath}/resources/images/i_edit.gif" border="0" style="CURSOR: hand">

@@ -13,17 +13,27 @@ public class User {
     private  String iphone;
     private  Integer sex;
     private  Integer age;
+    private  String role;
 
     public User() {
     }
 
-    public User(Integer uid, String username, String password, String iphone, Integer sex, Integer age) {
+    public User(Integer uid, String username, String password, String iphone, Integer sex, Integer age, String role) {
         this.uid = uid;
         this.username = username;
         this.password = password;
         this.iphone = iphone;
         this.sex = sex;
         this.age = age;
+        this.role = role;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 
     public Integer getUid() {

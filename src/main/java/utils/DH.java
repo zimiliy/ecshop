@@ -23,7 +23,7 @@ public class DH {
 	 * @param args:参数为String类型的数组，按照参数占位符的顺序赋值
 	 * @return
 	 */
-	public static List getall(String sql, Object o, String[] args) {
+	public static List getall(String sql, Object o, Object[] args) {
 		List li = new ArrayList();
 		Connection conn = null;
 		DbUtils.loadDriver(DH.connstr);
@@ -35,13 +35,41 @@ public class DH {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
-
 			DbUtils.closeQuietly(conn);
 
 		}
 
 		return li;
 	}
+
+    /**
+     * 查询总条数
+     * @param sql
+     * @param category
+     * @return
+     */
+	public static int getTotal(String sql,String category){
+        int count=0;
+        Connection conn = null;
+        try {
+            conn = DriverManager.getConnection(DH.dr, DH.uid, DH.pwd);
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1,category);
+            ResultSet rs = preparedStatement.executeQuery();
+            while(rs.next()){
+                count++;
+            }
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        } finally {
+            DbUtils.closeQuietly(conn);
+
+        }
+        return count;
+    }
+
+
 
 	/**
 	 * 增删改数据

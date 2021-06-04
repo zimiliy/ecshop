@@ -3,6 +3,7 @@ package service.impl;
 import dao.ProductDao;
 import pojo.Product;
 import service.ProductService;
+import utils.PageUtils;
 import vo.ProductVo;
 
 import java.util.List;
@@ -49,6 +50,40 @@ public class ProductServiceImpl implements ProductService {
     public List<Product> findProduct(String id, String name, String category, String minPrice, String maxPrice) {
 
         return productDao.findProduct(id, name, category, minPrice, maxPrice);
+    }
+
+    /**
+     * 分页查询商品信息
+     * @param currentPage
+     * @param currentCount
+     * @param category
+     * @return
+     */
+    @Override
+    public PageUtils queryProductByPage(int currentPage, int currentCount, String category) {
+
+        //创建分页工具类
+        PageUtils pageUtils = new PageUtils();
+        //封装 每页显示的条数
+        pageUtils.setCurrentCount(currentCount);
+        // 封装当前页码
+        pageUtils.setCurrentPage(currentPage);
+        // 封装当前查找类别
+        pageUtils.setCategory(category);
+
+        try {
+            //查询该商品总数
+            int total = productDao.getTotal(category);
+            pageUtils.setTotalCount(total);
+            int totalPage = (int) Math.ceil(total * 1.0 / currentCount);
+            List<Product> list = productDao.queryProductByPage(currentPage, currentCount, category);
+            pageUtils.setTotalPage(totalPage);
+            pageUtils.setList(list);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return pageUtils;
     }
 
     /**

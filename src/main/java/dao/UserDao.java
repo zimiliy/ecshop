@@ -34,8 +34,8 @@ public class UserDao {
      * @return
      */
     public int registerUser(User user){
-        String  sql="insert into t_user(username,password,iphone,sex,age) values(?,?,?,?,?)";
-        String [] args={user.getUsername(),user.getPassword(),user.getIphone(),user.getSex()+"",user.getAge()+""};
+        String  sql="insert into t_user(username,password,iphone,sex,age,role) values(?,?,?,?,?,?)";
+        String [] args={user.getUsername(),user.getPassword(),user.getIphone(),user.getSex()+"",user.getAge()+"",user.getRole()};
         int update = DH.update(sql, args);
         return  update;
     }

@@ -33,7 +33,10 @@ public class RegisterServlet extends HttpServlet {
         String phone = request.getParameter("phone");
         int sex = Integer.parseInt(request.getParameter("sex"));
         int age = Integer.parseInt(request.getParameter("age"));
-        User user=new User(null,username,password,phone,age,sex);
+
+        String role="customer";
+        User user=new User(null,username,password,phone,sex,age,role);
+
         int result = userService.registerUser(user);
         if (result>0){
             /**

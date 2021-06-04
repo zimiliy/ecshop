@@ -42,9 +42,8 @@ public class FindOrderByIdServlet extends HttpServlet {
         request.setAttribute("order",order);
 
         request.setAttribute("productByOrder",products);
+
         request.getRequestDispatcher("WEB-INF/views/order/orderSee.jsp").forward(request,response);
-
-
     }
 
     @Override

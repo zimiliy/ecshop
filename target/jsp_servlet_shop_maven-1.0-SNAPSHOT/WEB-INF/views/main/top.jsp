@@ -42,10 +42,6 @@ TH {
             window.top.close();
             window.location.href = "${pageContext.request.contextPath}/ToLoginServlet";
 		}
-		//如果你使用的是firefox浏览器必须要做以下设置
-		//1、在地址栏输入about:config然后回车，警告确认
-		//2、在过滤器中输入”dom.allow_scripts_to_close_windows“，双击即可将此值设为true 即可完成了
-
 	}
 </script>
 </HEAD>
