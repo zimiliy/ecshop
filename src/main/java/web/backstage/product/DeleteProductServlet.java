@@ -33,7 +33,7 @@ public class DeleteProductServlet extends HttpServlet {
               */
           response.sendRedirect("ProductServlet");
         }else {
-            System.out.println("删除失败");
+            System.out.println("削除失败");
         }
 
     }

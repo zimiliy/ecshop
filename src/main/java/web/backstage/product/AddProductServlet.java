@@ -54,7 +54,7 @@ public class AddProductServlet extends HttpServlet {
             return;
         } catch (Exception e) {
             e.printStackTrace();
-            response.getWriter().write("添加商品失败");
+            response.getWriter().write("商品追加失败");
             return;
         }
 

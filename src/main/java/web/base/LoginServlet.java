@@ -60,7 +60,7 @@ public class LoginServlet extends HttpServlet {
             }
 
         } else {
-            request.setAttribute("msg","用户名或密码错误");
+            request.setAttribute("msg","ユーザー名またはパスワードが間違っています");
             request.getRequestDispatcher("WEB-INF/views/main/login.jsp").forward(request,response);
         }
 

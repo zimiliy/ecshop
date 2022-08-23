@@ -66,9 +66,9 @@ public class UploadUntils {
                     if (!parentDir.exists()) {
                         parentDir.mkdirs();
                     }
-                    String imgurl = "http://localhost:8080/shop/upload" + "/" + randomName;
+                   // String imgurl = "http://localhost:8080/shop/upload" + "/" + randomName;
 
-                    map.put("imgurl", imgurl);
+                    map.put("imgurl", randomName);
 
                     IOUtils.copy(fileItem.getInputStream(), new FileOutputStream(
                             new File(parentDir, randomName)));

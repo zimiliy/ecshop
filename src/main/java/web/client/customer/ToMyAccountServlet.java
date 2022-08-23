@@ -24,7 +24,7 @@ public class ToMyAccountServlet extends HttpServlet {
         User user = (User) session.getAttribute("user");
         session.setAttribute("user",user);
         if (user==null){
-            request.setAttribute("msg","用户未登录");
+            request.setAttribute("msg","ユーザーがログインしていません！");
             request.getRequestDispatcher("WEB-INF/views/main/login.jsp").forward(request,response);
         }else {
             request.getRequestDispatcher("WEB-INF/views/client/customer/myAccount.jsp").forward(request,response);

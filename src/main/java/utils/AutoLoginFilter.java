@@ -27,7 +27,7 @@ public class AutoLoginFilter implements Filter {
         HttpServletRequest request1= (HttpServletRequest) request;
         User user = (User) request1.getSession().getAttribute("user");
         if(user==null){
-           request1.setAttribute("msg","用户未登录");
+           request1.setAttribute("msg","ユーザーがログインしていません！");
            request.getRequestDispatcher("views/main/login.jsp");
         }
         chain.doFilter(request,response);

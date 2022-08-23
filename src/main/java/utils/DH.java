@@ -13,7 +13,7 @@ public class DH {
 	public static final String connstr = "com.mysql.jdbc.Driver";
 	public static final String dr = "jdbc:mysql://localhost:3306/augmentum?useUnicode=true&characterEncoding=utf-8&useSSL=false";
 	public static final String uid = "root";
-	public static final String pwd = "123456";
+	public static final String pwd = "";
 
 	/**
 	 * 查询全部

@@ -26,7 +26,7 @@ public class ToCartServlet extends HttpServlet {
             request.setAttribute("cart", request.getSession().getAttribute("cart"));
             request.getRequestDispatcher("WEB-INF/views/client/cart.jsp").forward(request, response);
         }else {
-            request.setAttribute("msg","用户未登录");
+            request.setAttribute("msg","ユーザーはログインしていません！");
             request.getRequestDispatcher("WEB-INF/views/main/login.jsp").forward(request,response);
         }
     }

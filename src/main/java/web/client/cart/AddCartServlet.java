@@ -62,7 +62,7 @@ public class AddCartServlet extends HttpServlet {
                 e.printStackTrace();
             }
         }else {
-            request.setAttribute("msg","用户未登录");
+            request.setAttribute("msg","ユーザーはログインしていません！");
             request.getRequestDispatcher("WEB-INF/views/main/login.jsp").forward(request,response);
         }
     }
